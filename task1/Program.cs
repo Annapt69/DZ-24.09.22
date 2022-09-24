@@ -6,9 +6,9 @@
 918 -> 1
 */
 
-Console.Write("Введите трехзгачное число: ");
+Console.Write("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int currentNumber = number % 10;
+int currentNumber = number / 10;
 int secondDigital = currentNumber % 10;
 Console.WriteLine($"Вторая цифра {secondDigital}");
 
